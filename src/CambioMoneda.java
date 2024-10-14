@@ -1,11 +1,12 @@
+import java.io.IOException;
+
 public record CambioMoneda(
-        String nombreMonedaBase,
-        float monedaBase,
-        String nombreMonedaCambio,
-        float monedacambio
+        String base_code,
+        String target_code,
+        float conversion_rate
 ) {
-    public String getDatos(){
-        return String.format("Moneda base: %s - Valor: %.2f | Moneda Cambio: %s - Valor: %.2f",
-                nombreMonedaBase,monedaBase,nombreMonedaCambio,monedacambio);
+    public void ConvertirMoneda() throws IOException {
+        var monto=Utilidad.validarMonto();
+        System.out.printf("Cambio Moneda: %.2f\n", monto* conversion_rate);
     }
 }

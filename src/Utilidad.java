@@ -14,6 +14,7 @@ public class Utilidad {
             "(5)Dolar ==> Peso Colombiano",
             "(6)Peso Colombiano ==> Dolar",
             "(7) Salir","::".repeat(10));
+
     public static String validarOpcion() throws IOException {
         var opcion="";
         do{
@@ -22,5 +23,14 @@ public class Utilidad {
             opcion=lector.readLine().trim();
         }while(!opcion.matches("[1-7]"));
         return opcion;
+    }
+
+    public static float validarMonto() throws IOException {
+        var dato="";
+        do{
+            System.out.println("Ingrese un monto");
+            dato=lector.readLine().trim();
+        }while(!dato.matches("[0-9]+.[0-9]+"));
+        return Float.parseFloat(dato);
     }
 }
