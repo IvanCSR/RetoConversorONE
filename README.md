@@ -14,8 +14,13 @@ que nos devolvera el valor de la moneda que eligio el usuario:
  * (7) Salir
  * 
 Pedira el monto que desea convertir y devolvera su equivalente en la moneda de la seleccion.
-Capturas de la ejecucion:
-<span>![</span><span>No se puedo cargar la imagen</span><span>]</span><span>(</span><span>https://github.com/IvanCSR/RetoConversorONE/blob/master/ima/ima01.png</span><span>)</span>
+
+##Capturas de la ejecucion:
+
+![ima01](https://github.com/user-attachments/assets/529cdfa0-c281-4e14-8e40-bd794b5c3d08)
+
+![ima02](https://github.com/user-attachments/assets/15abc255-2f87-40ff-a04d-b110891565a8)
+
 ## Realizado por:
 
 **Ivan Chavez - 2024**
