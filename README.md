@@ -14,7 +14,8 @@ que nos devolvera el valor de la moneda que eligio el usuario:
  * (7) Salir
  * 
 Pedira el monto que desea convertir y devolvera su equivalente en la moneda de la seleccion.
-
+Capturas de la ejecucion:
+<span>![</span><span>No se puedo cargar la imagen</span><span>]</span><span>(</span><span>https://github.com/IvanCSR/RetoConversorONE/blob/master/ima/ima01.png</span><span>)</span>
 ## Realizado por:
 
 **Ivan Chavez - 2024**
