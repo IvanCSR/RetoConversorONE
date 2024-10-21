@@ -15,7 +15,7 @@ que nos devolvera el valor de la moneda que eligio el usuario:
  * 
 Pedira el monto que desea convertir y devolvera su equivalente en la moneda de la seleccion.
 
-##Capturas de la ejecucion:
+Capturas de la ejecucion del programa:
 
 ![ima01](https://github.com/user-attachments/assets/529cdfa0-c281-4e14-8e40-bd794b5c3d08)
 
