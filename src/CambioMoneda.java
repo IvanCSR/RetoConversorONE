@@ -7,6 +7,8 @@ public record CambioMoneda(
 ) {
     public void ConvertirMoneda() throws IOException {
         var monto=Utilidad.validarMonto();
-        System.out.printf("Cambio Moneda: %.2f\n", monto* conversion_rate);
+        System.out.printf("El valor de %.2f [%s] corresponde al valor de %.2f [%s]%n",
+                monto,base_code,
+                monto* conversion_rate,target_code);
     }
 }
