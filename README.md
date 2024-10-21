@@ -3,7 +3,7 @@
 Es un desafio propuesto del Programa ONE de Oracle y Alura Latam - G7.
 
 la Finalidad es desplegar un menu de opciones donde el usuario pueda elegir que tipo de monedas va a convertir para dicha funcionalidad haremos uso de la api exchangerate-api, 
-que nos devolvera el valor de la moneda que eligio el usario:
+que nos devolvera el valor de la moneda que eligio el usuario:
 
  * (1)Dolar ==> Peso Argentino
  * (2)Peso Argentino ==> Dolar
